@@ -4,18 +4,20 @@ Setup Brownie follow:
 https://github.com/eth-brownie/brownie
 
 
-create .env file in root folder
-ADD KEYS:
+Create .env file in root folder
 
-export PRIVATE_KEY={YOUR WALLET PRIVATE KEY}
-export BSCSCAN_TOKEN={YOUR BSCSCAN KEY}
+###### ADD KEYS in .env file:
 
-Run scripts: 
-brownie compile
+ * export PRIVATE_KEY={YOUR WALLET PRIVATE KEY}
 
-Deploy:
-brownie run scripts/1_deploy_token.py --network networkName
+ * export BSCSCAN_TOKEN={YOUR BSCSCAN KEY}
 
+###### Run scripts: 
+
+ * brownie compile
+
+###### Deploy:
+ *  brownie run scripts/1_deploy_token.py --network networkName
 
 *networkName:
 enter: brownie networks list
