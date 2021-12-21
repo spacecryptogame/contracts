@@ -12,6 +12,8 @@ Create .env file in root folder
 
  * export BSCSCAN_TOKEN={YOUR BSCSCAN KEY}
 
+ *** IMPORTANT: NEVER COMMIT .env FILE.
+
 ###### Run scripts: 
 
  * brownie compile
